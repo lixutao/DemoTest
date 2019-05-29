@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8EC19792527E1C1DF8D97A3F /* Pods_DemoTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F13B81A9AA9633584C51F6DD /* Pods_DemoTest.framework */; };
 		EE03BCE5229E2CA1006CAF01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE03BCE4229E2CA1006CAF01 /* AppDelegate.m */; };
 		EE03BCE8229E2CA1006CAF01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE03BCE7229E2CA1006CAF01 /* ViewController.m */; };
 		EE03BCEB229E2CA1006CAF01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE03BCE9229E2CA1006CAF01 /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		EE03BCF3229E2CA4006CAF01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE03BCF2229E2CA4006CAF01 /* main.m */; };
 		EE03BCFD229E2CA4006CAF01 /* DemoTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE03BCFC229E2CA4006CAF01 /* DemoTestTests.m */; };
 		EE03BD08229E2CA4006CAF01 /* DemoTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE03BD07229E2CA4006CAF01 /* DemoTestUITests.m */; };
+		EE03BD16229E348D006CAF01 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE03BD15229E348D006CAF01 /* CoreTelephony.framework */; };
+		EE03BD19229E372B006CAF01 /* ApplicationManage.m in Sources */ = {isa = PBXBuildFile; fileRef = EE03BD18229E372B006CAF01 /* ApplicationManage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		358BC7E66BF1335EFAB4D394 /* Pods-DemoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoTest/Pods-DemoTest.debug.xcconfig"; sourceTree = "<group>"; };
+		480E3C28163FDBAE85965EF3 /* Pods-DemoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoTest/Pods-DemoTest.release.xcconfig"; sourceTree = "<group>"; };
 		EE03BCE0229E2CA1006CAF01 /* DemoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE03BCE3229E2CA1006CAF01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE03BCE4229E2CA1006CAF01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +56,10 @@
 		EE03BD03229E2CA4006CAF01 /* DemoTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE03BD07229E2CA4006CAF01 /* DemoTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTestUITests.m; sourceTree = "<group>"; };
 		EE03BD09229E2CA4006CAF01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE03BD15229E348D006CAF01 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		EE03BD17229E372B006CAF01 /* ApplicationManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplicationManage.h; sourceTree = "<group>"; };
+		EE03BD18229E372B006CAF01 /* ApplicationManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplicationManage.m; sourceTree = "<group>"; };
+		F13B81A9AA9633584C51F6DD /* Pods_DemoTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE03BD16229E348D006CAF01 /* CoreTelephony.framework in Frameworks */,
+				8EC19792527E1C1DF8D97A3F /* Pods_DemoTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		897F3B5E455A064345A902FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				358BC7E66BF1335EFAB4D394 /* Pods-DemoTest.debug.xcconfig */,
+				480E3C28163FDBAE85965EF3 /* Pods-DemoTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EE03BCD7229E2CA1006CAF01 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +105,8 @@
 				EE03BCFB229E2CA4006CAF01 /* DemoTestTests */,
 				EE03BD06229E2CA4006CAF01 /* DemoTestUITests */,
 				EE03BCE1229E2CA1006CAF01 /* Products */,
+				897F3B5E455A064345A902FA /* Pods */,
+				F60A220E1A25F4B04237A388 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +132,8 @@
 				EE03BCEE229E2CA4006CAF01 /* LaunchScreen.storyboard */,
 				EE03BCF1229E2CA4006CAF01 /* Info.plist */,
 				EE03BCF2229E2CA4006CAF01 /* main.m */,
+				EE03BD17229E372B006CAF01 /* ApplicationManage.h */,
+				EE03BD18229E372B006CAF01 /* ApplicationManage.m */,
 			);
 			path = DemoTest;
 			sourceTree = "<group>";
@@ -132,6 +156,15 @@
 			path = DemoTestUITests;
 			sourceTree = "<group>";
 		};
+		F60A220E1A25F4B04237A388 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE03BD15229E348D006CAF01 /* CoreTelephony.framework */,
+				F13B81A9AA9633584C51F6DD /* Pods_DemoTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +172,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE03BD0C229E2CA4006CAF01 /* Build configuration list for PBXNativeTarget "DemoTest" */;
 			buildPhases = (
+				5BCA95FAD9DA989F255932AA /* [CP] Check Pods Manifest.lock */,
 				EE03BCDC229E2CA1006CAF01 /* Sources */,
 				EE03BCDD229E2CA1006CAF01 /* Frameworks */,
 				EE03BCDE229E2CA1006CAF01 /* Resources */,
@@ -257,6 +291,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5BCA95FAD9DA989F255932AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE03BCDC229E2CA1006CAF01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -265,6 +324,7 @@
 				EE03BCE8229E2CA1006CAF01 /* ViewController.m in Sources */,
 				EE03BCF3229E2CA4006CAF01 /* main.m in Sources */,
 				EE03BCE5229E2CA1006CAF01 /* AppDelegate.m in Sources */,
+				EE03BD19229E372B006CAF01 /* ApplicationManage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,14 +493,50 @@
 		};
 		EE03BD0D229E2CA4006CAF01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 358BC7E66BF1335EFAB4D394 /* Pods-DemoTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NLGH8L8MN5;
 				INFOPLIST_FILE = DemoTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AdSupport\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"VungleSDK\"",
+					"-weak_framework",
+					"\"Foundation\"",
+					"-weak_framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"WebKit\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.vungletest.com.DemoTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -450,14 +546,50 @@
 		};
 		EE03BD0E229E2CA4006CAF01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 480E3C28163FDBAE85965EF3 /* Pods-DemoTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NLGH8L8MN5;
 				INFOPLIST_FILE = DemoTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AdSupport\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"VungleSDK\"",
+					"-weak_framework",
+					"\"Foundation\"",
+					"-weak_framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"WebKit\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.vungletest.com.DemoTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";

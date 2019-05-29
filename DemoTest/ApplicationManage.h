@@ -7,10 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <VungleSDK/VungleSDK.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ApplicationManage : NSObject
+
++ (void)initVungleSDK;
 
 @end
 
